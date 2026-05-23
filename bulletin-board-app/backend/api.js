@@ -5,5 +5,5 @@ exports.events = function (req, res) {
 };
 
 exports.event = function (req, res) {
-  res.json(events[req.param.eventId]);
+  res.json(events[req.params.eventId]);
 };

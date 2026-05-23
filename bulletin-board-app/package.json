@@ -15,11 +15,14 @@
   },
   "devDependencies": {
     "body-parser": "^1.14.1",
+    "chai": "^6.2.2",
     "errorhandler": "^1.4.2",
     "method-override": "^2.3.5",
+    "mocha": "^11.7.6",
     "morgan": "^1.6.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"
   }
 }

@@ -1,5 +1,5 @@
-const api = require('./backend/api');
-const events = require('./backend/events');
+const api = require('./api');
+const events = require('./events');
 
 describe('API Functions', () => {
   describe('exports.events', () => {
